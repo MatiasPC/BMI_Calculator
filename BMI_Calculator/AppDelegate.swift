@@ -1,13 +1,6 @@
-//
-//  AppDelegate.swift
-//  BMI_Calculator
-//
-//  Created by Matias Peralta Charro on 27/05/2022.
-//
-
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

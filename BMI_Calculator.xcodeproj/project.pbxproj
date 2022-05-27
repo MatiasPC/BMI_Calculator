@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600145F1284177E4005A978D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600145F0284177E4005A978D /* AppDelegate.swift */; };
-		600145F3284177E4005A978D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600145F2284177E4005A978D /* SceneDelegate.swift */; };
-		600145F5284177E4005A978D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600145F4284177E4005A978D /* ViewController.swift */; };
-		600145F8284177E4005A978D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600145F6284177E4005A978D /* Main.storyboard */; };
-		600145FA284177E8005A978D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600145F9284177E8005A978D /* Assets.xcassets */; };
-		600145FD284177E8005A978D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600145FB284177E8005A978D /* LaunchScreen.storyboard */; };
+		6001460628417820005A978D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6001460428417820005A978D /* SceneDelegate.swift */; };
+		6001460728417820005A978D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6001460528417820005A978D /* AppDelegate.swift */; };
+		6001460B28417839005A978D /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 6001460828417839005A978D /* Models */; };
+		6001460C28417839005A978D /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 6001460928417839005A978D /* Views */; };
+		6001460D28417839005A978D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 6001460A28417839005A978D /* Controllers */; };
+		6001460F28417C1B005A978D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6001460E28417C1B005A978D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		600145ED284177E4005A978D /* BMI_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		600145F0284177E4005A978D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		600145F2284177E4005A978D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		600145F4284177E4005A978D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		600145F7284177E4005A978D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		600145F9284177E8005A978D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		600145FC284177E8005A978D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600145FE284177E8005A978D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6001460428417820005A978D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6001460528417820005A978D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6001460828417839005A978D /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		6001460928417839005A978D /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		6001460A28417839005A978D /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		6001460E28417C1B005A978D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		600145EF284177E4005A978D /* BMI_Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				600145F0284177E4005A978D /* AppDelegate.swift */,
-				600145F2284177E4005A978D /* SceneDelegate.swift */,
-				600145F4284177E4005A978D /* ViewController.swift */,
-				600145F6284177E4005A978D /* Main.storyboard */,
-				600145F9284177E8005A978D /* Assets.xcassets */,
-				600145FB284177E8005A978D /* LaunchScreen.storyboard */,
+				6001460528417820005A978D /* AppDelegate.swift */,
+				6001460428417820005A978D /* SceneDelegate.swift */,
+				6001460A28417839005A978D /* Controllers */,
+				6001460828417839005A978D /* Models */,
+				6001460928417839005A978D /* Views */,
 				600145FE284177E8005A978D /* Info.plist */,
+				6001460E28417C1B005A978D /* Assets.xcassets */,
 			);
 			path = BMI_Calculator;
 			sourceTree = "<group>";
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					600145EC284177E4005A978D = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -125,9 +126,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600145FD284177E8005A978D /* LaunchScreen.storyboard in Resources */,
-				600145FA284177E8005A978D /* Assets.xcassets in Resources */,
-				600145F8284177E4005A978D /* Main.storyboard in Resources */,
+				6001460B28417839005A978D /* Models in Resources */,
+				6001460C28417839005A978D /* Views in Resources */,
+				6001460F28417C1B005A978D /* Assets.xcassets in Resources */,
+				6001460D28417839005A978D /* Controllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600145F5284177E4005A978D /* ViewController.swift in Sources */,
-				600145F1284177E4005A978D /* AppDelegate.swift in Sources */,
-				600145F3284177E4005A978D /* SceneDelegate.swift in Sources */,
+				6001460728417820005A978D /* AppDelegate.swift in Sources */,
+				6001460628417820005A978D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		600145F6284177E4005A978D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				600145F7284177E4005A978D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		600145FB284177E8005A978D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				600145FC284177E8005A978D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		600145FF284177E8005A978D /* Debug */ = {
@@ -285,16 +267,14 @@
 		60014602284177E8005A978D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7JF986548;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMI_Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matiaspc.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,16 +294,14 @@
 		60014603284177E8005A978D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7JF986548;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMI_Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
